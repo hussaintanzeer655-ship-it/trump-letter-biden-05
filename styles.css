@@ -1,0 +1,10 @@
+:root{--bg:#f8faff;--card:#fff;--text:#0b132b;--accent:#1e40af}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;background:var(--bg);font-family:Arial}
+.site-header{text-align:center;padding:14px;background:#fff;border-bottom:1px solid #e5e7eb}
+.container{max-width:1000px;margin:0 auto;padding:14px;}
+.panel{background:var(--card);border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+input,textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #ddd;margin-top:6px}
+textarea{height:160px}
+button{margin:6px 6px 0 0;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 12px;cursor:pointer}
+.preview-box{min-height:120px;border:1px solid #e5e7eb;border-radius:8px;padding:12px;background:#fff}
+@media (min-width: 800px){.container{display:grid;grid-template-columns:1fr 1fr;gap:20px}}
